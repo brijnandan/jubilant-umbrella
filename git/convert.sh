@@ -25,3 +25,6 @@ if  [ "$src" = "/" ] && [ "$des" = "/"  ]
 	else
 	echo " directories are not perfect please provide full path from root"
 fi
+
+cd $source_path
+git log --pretty=oneline | awk '{print $1}' | tac
