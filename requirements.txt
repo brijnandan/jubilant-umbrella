@@ -1,0 +1,5 @@
+items 
+1) sonar.
+2) version control  bitbucket/gitlab /( feature comparision ).
+3) maven.
+4) sample maven webapplication.
